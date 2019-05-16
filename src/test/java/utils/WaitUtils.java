@@ -1,7 +1,6 @@
 package utils;
 
 import io.appium.java_client.ios.IOSElement;
-import jdk.javadoc.internal.doclets.toolkit.PropertyUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +11,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class WaitUtils {
-    public final int explicitWaitDefault = PropertyUtils.getIntegerProperty("explicitWait", 10);
+    public final int explicitWaitDefault = utils.PropertyUtils.getIntegerProperty("explicitWait", 10);
 
     /**
      * This method is for static wait
