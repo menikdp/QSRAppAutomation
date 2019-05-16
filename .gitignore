@@ -3,3 +3,4 @@ screenshot/*
 target/*
 .DS_Store
 src/test/resources/configuration.properties
+apk/*
